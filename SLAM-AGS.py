@@ -3,7 +3,6 @@ import torchvision.transforms as T
 from utils import nt_xent_loss, similarity_loss, BalancedBatchDataset
 from model import Model
 import os 
-import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 import wandb
 from torch.optim.lr_scheduler import LambdaLR
