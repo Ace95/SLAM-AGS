@@ -62,6 +62,7 @@ def similarity_loss(features_pos, temperature=0.07,
                    contrast_mode='all', base_temperature=0.07):
     """
     Similarity Loss function.
+    Adapted from https://github.com/HobbitLong/SupContrast
     
     Args:
         features_pos: Positive features tensor [bsz, n_views, feature_dim] or [bsz, feature_dim]
