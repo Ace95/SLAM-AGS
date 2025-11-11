@@ -14,7 +14,7 @@ import random
 parser = argparse.ArgumentParser(description="Pretrain with SLAM-AGS")
 parser.add_argument("--positive_dir", type=str, required=True, help="Path to positive images")
 parser.add_argument("--negative_dir", type=str, required=True, help="Path to negative images")
-parser.add_argument("--wr", type=str, required=True, help="WR of the training set")
+parser.add_argument("--wr", type=str, required=True, help="WR of the training set, only to name the save file!")
 args = parser.parse_args()
 
 checkpoint_path = "./checkpoints"

@@ -6,7 +6,6 @@ from PIL import Image
 import numpy as np
 from model import Model, ResNet18Classifier
 import argparse
-import torchvision.models as models
 
 parser = argparse.ArgumentParser(description="")
 parser.add_argument("--split", type=str, required=True, help="Train or Test")
@@ -16,7 +15,7 @@ parser.add_argument("--model", type=str, help="Path to pretrained model")
 parser.add_argument("--pre", type=str, help="[weakly, self, wcs]")
 args = parser.parse_args()
 
-def load_encoder(checkpoint_path, device,pre):
+def load_encoder(checkpoint_path, device, pre):
     
     if pre=="weakly":
         model = ResNet18Classifier(num_classes=2, weights=None)
@@ -85,4 +84,4 @@ def extract_embeddings(bags_root, output_root, checkpoint_path):
 extract_embeddings(
         bags_root=args.data_dir,           
         output_root="output/path/embeddings", 
-        checkpoint_path="checkpoint/path/")
+        checkpoint_path=args.model)

@@ -4,7 +4,6 @@ import os
 import random
 from PIL import Image
 from torch.utils.data import IterableDataset
-import numpy as np
 
 # Contrastive loss for SimCLR (ntXent loss)
 def nt_xent_loss(z_i, z_j, labels=None, temperature=0.07):
