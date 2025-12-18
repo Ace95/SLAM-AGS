@@ -2,7 +2,7 @@ Code for
 # SLAM-AGS: Slide-Label Aware Multi-Task Pretraining Using Adaptive Gradient Surgery in Computational Cytology
 _Marco Acerbis, Swarnadip Chatterjee, Christophe Avenel, Joakim Lindblad_
 
-[ArXiv preprint] 
+[[ArXiv preprint](https://arxiv.org/pdf/2511.14639)]
 
 ## Dataset
 The Bone Marrow Cytomorphology dataset can be downloaded from [here](https://www.cancerimagingarchive.net/collection/bone-marrow-cytomorphology_mll_helmholtz_fraunhofer/).
@@ -16,7 +16,7 @@ You will need to pass these two folders to SLAM-AGS.py, while for PAMIL.py train
 
 Usage:
 - Use SLAM-AGS.py to pretrain a ResNet18 encoder with SLAM-AGS,
-> python SLAM-AGS.py --positive_dir /path/to/positive/dir --negative_dir /path/to/negative/dir --wr (witness rate to name the saving file)
+> python SLAM-AGS.py --positive_dir /path/to/positive/dir --negative_dir /path/to/negative/dir --wr (witness rate used only to name the saving file)
 
 - Once you have a trained encoder, you can use embeddings.py to generate train and test embeddings for PAMIL,
 > python embeddings.py --split train/test --data_dir path/to/bags/dir --dim encoder_output_dimension --model path/to/pretrained/model.pth  --pre [weakly, self, wcs]
