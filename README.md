@@ -2,7 +2,7 @@ Code for
 # SLAM-AGS: Slide-Label Aware Multi-Task Pretraining Using Adaptive Gradient Surgery in Computational Cytology
 _Marco Acerbis, Swarnadip Chatterjee, Christophe Avenel, Joakim Lindblad_
 
-[[ArXiv preprint](https://arxiv.org/pdf/2511.14639)]
+[[ArXiv preprint](https://arxiv.org/pdf/2511.14639)]-[ISBI2026](Accepted - Coming soon)
 
 ## Dataset
 The Bone Marrow Cytomorphology dataset can be downloaded from [here](https://www.cancerimagingarchive.net/collection/bone-marrow-cytomorphology_mll_helmholtz_fraunhofer/).
