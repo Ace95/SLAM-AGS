@@ -20,7 +20,7 @@ SLAM-AGS/
 ├── bags_gen.py        # Bag generation from raw dataset
 ├── model.py           # Model architecture definitions
 ├── utils.py           # Utility functions
-└── prerequisites.txt  # Required dependencies
+└── requirements.txt   # Required dependencies
 ```
 
 ## Dataset
