@@ -2,7 +2,7 @@
 
 *Marco Acerbis, Swarnadip Chatterjee, Christophe Avenel, Joakim Lindblad*
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2511.14639-b31b1b.svg)](https://arxiv.org/pdf/2511.14639) [![ISBI 2026](https://img.shields.io/badge/ISBI_2026-Accepted-green)]()
+[![ArXiv](https://img.shields.io/badge/arXiv-2511.14639-b31b1b.svg)](https://arxiv.org/pdf/2511.14639) [![ISBI 2026](https://img.shields.io/badge/ISBI_2026-Accepted-green)](https://ieeexplore.ieee.org/abstract/document/11515859)
 
 ---
 
